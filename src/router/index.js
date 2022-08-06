@@ -10,7 +10,7 @@ import UserLayout from "../components/layouts/UserLayout.vue";
 import IndexComponent from "../views/Index.vue";
 import IndexUser from "../views/User.vue";
 import Message from "../views/Message.vue";
-import Profile from "../views/updateProfile.vue";
+
 import CreateMessage from "../views/CreateMessage.vue";
 import Users from "../views/Users.vue";
 import LoginComponent from "../views/Login.vue";
@@ -52,7 +52,7 @@ const routes = [
         { name : 'messageCreate', path: '/admin/message/create', component: CreateMessage },
         { name : 'messageView', path: '/admin/message/:id', component: CreateMessage },
         { name : 'Users', path: '/admin/users', component: Users },
-        { name : 'profile', path: '/user/profile/:id', component: Profile },
+        
     ]
   },
 
